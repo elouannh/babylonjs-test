@@ -29,7 +29,5 @@ light.intensity = 1;
 shoe(scene);
 threeCubes(<BABYLON.Scene><unknown>scene);
 
-
-
 engine.runRenderLoop((): void => scene.render());
 window.addEventListener("resize", () => engine.resize());
